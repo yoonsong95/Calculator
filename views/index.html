@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../public/css/style.css">
+</head>
+
+<body>
+    <p>Calculator</p>
+
+    <div id="display-area">
+        <p id="equation-display"></p>
+        <p id="num-display">0</p>
+    </div>
+
+    <div id="num-pad">
+        <input type="button" value="7">
+        <input type="button" value="8">
+        <input type="button" value="9">
+        <input type="button" value="4">
+        <input type="button" value="5">
+        <input type="button" value="6">
+        <input type="button" value="1">
+        <input type="button" value="2">
+        <input type="button" value="3">
+        <input type="button" value="">
+        <input type="button" value="0">
+        <input type="button" value=".">
+    </div>
+
+    <div id="operator-pad">
+        <input type="button" value="/">
+        <input type="button" value="x">
+        <input type="button" value="+">
+        <input type="button" value="-">
+        <input type="button" id="return" value="=">
+    </div>
+
+    <div id="edit-pad">
+        <input type="button" id="backspace" value="backspace">
+        <input type="button" id="clear" value="clear (num)">
+        <input type="button" id="clear-all" value="clear all">
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="../public/js/calculator.js"></script>
+
+</body>
+
+</html>
